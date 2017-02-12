@@ -1,0 +1,140 @@
+@font-face {
+      font-family: "white-festive";
+      src: url("white-festive.otf") format("opentype");
+}
+body{
+	background-color: #1573FF;
+	background-image: url("testura1.jpg");
+	text-align: center;
+	color: #FFD455;
+}
+h1{
+	margin-left: -10px;
+	margin-right: -10px;
+	font-family: white-festive, sans-serif;
+	font-size: 100px;
+	color: #FFD455;
+	background: #FFF;
+    padding: 10px;
+
+}
+h2{
+	text-align: center;
+	font-family: sans-serif;
+	background: #423e3e;;
+	color: #fcfcfc;;
+	margin-left: 400px;
+    margin-right: 400px;
+	padding: 10px;
+	border-radius: 24px;
+	clear: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+cite{
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+	border: 5px solid #D4BE47;
+	background: #22222a;
+}
+img{
+	border-radius: 10px;
+	width: 1000px;
+}
+ul{
+	text-align: justify;
+}
+nav{
+	background: #FFD455;
+	color: white;
+	padding: 10px;
+	text-align: left;
+	margin-right: -10px;
+}
+nav a{
+	padding-left: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #7a7a8c;
+}
+p{
+	text-align: justify;
+}
+blockquote{
+	background: #4795BA;
+	padding: 16px;
+	margin: 0;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	color: #010102;
+	float: left;
+}
+section{
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 40px;
+}
+ul li a img{
+	height: 100px;
+	width: 100px;
+}
+.imagens li{
+    display: inline-block;
+}
+.imagens a{
+	background-image: url(flores.jpg);
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+strong{
+	display: block;
+}
+footer{
+    clear: both;
+    /*position: fixed;*/
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    color: #0C0C0B;
+}
+.clearfix {
+    clear: both;
+}
+aside img{
+	width: 300px;
+	height: 200px;
+	position: relative;
+    top: 30px;
+    right: 30px;
+}
+.space aside p{
+	padding-top: 36px;
+}
+aside p{
+	background: purple;
+	text-align: center;
+}
+aside{
+	float: right;
+	color: white;
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+main{
+	/*	float: left;
+		width: 885px;
+		height: 0px;
+	*/
+	padding-bottom: 80px;
+}
+form{
+	background: #FFD455;
+}

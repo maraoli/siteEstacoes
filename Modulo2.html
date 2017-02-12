@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Estações do Dia</title>
+		<link rel="stylesheet" href="reset1.css"> <!-- -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript">
+			/*
+				var a = 33;
+				var breakline = "<br/>";				
+				document.write("b");
+				document.write(breakline);
+				document.write(a);
+				function sayHellow(){
+					alert("E veras uma caixa de mensagem.");
+				}
+				function Redirect(){
+					window.location="http://www.google.com.br";
+				}
+				function newTela(){
+					alert("E veras uma caixa de mensagem.");
+					document.write("Hellou Mara!");
+				}
+				function getConfirmation(){
+					var retVal=confirm("Do you want to continue?");
+					if(retVal==true){
+						document.write("User wants to continue!");
+					}
+					else{
+						document.write("User does not want to continue!");
+						return false;
+					}				
+				}
+				function getValue(){
+					var retVal=prompt("O que você fez?", "Digite aqui");
+					document.write("E aparece aqui: "+ retVal);
+				}
+			*/
+				// Stop error handling
+
+			function minhaPage(){
+				window.location="Modulo2.html";
+			}
+			function google(){
+					alert("Você irá para o google, faça bom proveito, boa viagem!");
+					window.location="http://www.google.com.br";
+			}			
+		</script>
+		
+		<link rel="icon" href="flores.jpg"> 
+	</head>
+	<body>
+		<main>
+		    <h1>Estações do Dia</h1>
+		
+		<nav>
+			<a href="Modulo2.html">Home</a>
+			<a href="#dia">Amanhecer</a>
+			<a href="#almoço">Refeição</a>
+			<a href="#tarde">Tardinha</a>
+			<a href="#luar">Luar</a>
+			<a href="https://www.google.com.br/">Visite-me</a>
+		</nav>
+
+		<form>
+			<!--	
+				<input type="button" onclick="sayHellow()" value="Clique aqui"/>	
+				<input type="button" value="Redirect Me" onclick="Redirect()"/>
+				<input type="button" onclick="newTela()" value="newTela"/>
+				<input type="button" onclick="getConfirmation()" value="Cancelar/OK"/>
+				<input type="button" value="Entrada" onclick="getValue()"/>
+			-->
+			<!--
+				<input type="button" value="Home" onclick="minhaPage()"/>
+				<input type="button" value="Visite esse site" onclick="google()"/>
+				<input type="button" value="Imprimir" onclick="window.print()"/>
+			-->
+		</form>   
+		<!--	<a href="javascript:void(alert('Mensagem'))">Alerta link </a>
+		-->
+		<a name="dia" id="dia" width="0px;" height="0px;"></a><h2>Um olá para acordar</h2>
+	        <img src="dia.jpg" alt="sol">
+	        <section><cite>Uma linda flor</cite></section>
+	    <a name="almoço" id="almoço"><h2>Hora do almoço</h2></a>
+	    	<img src="tarde.jpg" alt="almoço">
+	    	<section><cite>Um bom prato</cite></section>
+ 		<a name="tarde" id="tarde"><h2>Fim de tarde</h2></a>
+			<img src= "barco.jpg" alt="Foto do barco">
+			<section><cite>Mar em movimento</cite></section>
+		<a name="luar" id="luar"><h2>Já eras... é noite</h2></a>
+			<img src="noite.jpg" alt="Ceu estrelado">
+			<section><cite>Ceu estrelado</cite></section>
+		<!--
+			<ul>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+				<li>Lista_______________________________________</li>
+			</ul>
+		
+			<ul class="imagens">
+				<li>
+					<a href="http://www.google.com.br">
+						Flores
+					</a>
+				</li>
+				<li>
+					<a href="http://www.google.com.br">
+						Flores
+					</a>
+				</li>
+				<li>
+					<a href="http://www.google.com.br">
+						Flores
+					</a>
+				</li>
+			</ul>
+			<p>&lt;h1&gt; serve para títulos</p>
+			<blockquote>
+				Mais Você - 
+				De segunda a <strong>sexta</strong> das 9 às 10:45
+			</blockquote>
+		-->
+		</main>
+		<!--
+			<aside>
+				<img src="flores.jpg" alt="Flores">
+				<p class="space">Toda Maria Joquina só quer um Cirilão</p>
+				<p>Desempregados desesperados procuram um oportunidade de emprego</p>
+			</aside>
+		-->
+		<footer class="clearfix">
+        © Todos os direitos são reservados 2017
+  	    </footer>	
+	</body>
+</html>
